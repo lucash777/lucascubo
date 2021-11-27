@@ -1,0 +1,206 @@
+@keyframes slide { 
+
+    from {opacity: 0;}
+            
+    to {opacity: 1;
+    transform: translateY(0px) }
+
+}
+
+@keyframes slide1 {
+    from {opacity: 0;}
+    to {opacity: 1; 
+    transform: translateX(0px)}
+}
+
+
+ nav a:hover {background-color:rgb(224, 224, 224);
+    border-radius: 5px;}
+
+
+
+
+
+body {margin: 0%;}
+
+.section1 {background-image: url(../bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 25px;
+    }
+.section1 p {font-size: 30px;
+    color: white;
+    max-width: 300px;
+    margin-left: 20%;
+    text-align: center;
+   
+}
+    .section2 {background-image: url(../bg1.jpeg);
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 150px;
+        padding-top: 50px;
+        }
+
+        .section2 p {font-size: 30px;
+            color: white;
+            max-width: 300px;
+            margin-left: 60%;
+            text-align: center;
+           
+        }
+
+        .section3 {background-image: url(../bg5.jpg);
+            background-position: center;
+            background-size: cover;
+            padding-bottom: 100px;
+            padding-top: 50px;
+            }
+            .section3 p {font-size: 30px;
+                color: white;
+                max-width: 300px;
+                margin-left: 20%;
+                text-align: center;
+               
+            }
+
+            .section4 {background-color: black;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                }
+
+                @media(max-width: 768px){
+                    .section1 {
+                        background-image: url(../bg12.jpg);
+                        
+                    }
+                    }
+                    @media(max-width: 768px){
+                        .section1 p {
+                            text-align: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 350px;
+                           text-shadow: #fff 0px 0px 25px;
+                        }
+                    }
+                  
+
+                @media(max-width: 768px){
+                    .section2 {
+                        background-image: url(../bg10.jpg);
+                        
+                        
+                    }
+                }
+                @media(max-width: 768px){
+                    .section2 p {
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 300px;
+                        margin-top: -30px;
+                        padding-bottom: 100px;
+                    }
+                }
+                
+                
+
+                @media(max-width: 768px){
+                    .section3 p {
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        max-width: 350px;
+                       text-shadow: #fff 0px 0px 25px;
+                    }
+                }
+
+
+
+
+    
+    
+.botao-centro{
+    text-align: center;
+    display: block;
+    
+}
+
+.a1 {
+    
+        background-color:black;
+        padding: 5px 25px;
+        width: 15%;
+        height: 50px;
+        text-align: center;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        font-size: xx-large;
+        animation-name: slide1;
+        animation-duration: 0.3s;
+        transform:translateX(50px);
+        animation-fill-mode: forwards;
+        margin:0px;
+        color: white;
+        box-shadow: 0px 0px 20px white;
+        }
+       
+.a1:hover {
+    background-color:white;
+    color: black;
+    border-color: black;
+    top: 1px;
+    left: 1px;}
+
+
+body {
+    background-color: wheat;
+   
+    }
+
+ 
+h1 {font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 500%;
+    margin-top: 10px;
+    margin-left: 10%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    animation-name: slide1;
+    animation-duration: 0.5s;
+    text-shadow: black 10px 1px 10px;
+    } 
+
+@keyframes fundoanimado {
+    0% {background-position: 0 0;}
+
+    100% {background-position: 100% 0;}
+    
+}
+
+
+footer {background-color: rgba(153, 146, 146, 0.774);
+    height: 50px;}
+
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+ }
+

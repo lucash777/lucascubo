@@ -1,0 +1,80 @@
+@keyframes slide { 
+
+    from {opacity: 0;}
+            
+    to {opacity: 1;
+    transform: translateY(0px) }
+
+}
+
+
+
+nav a:hover {background-color:rgb(224, 224, 224);
+    border-radius: 5px;}
+
+
+
+body { background-color: wheat;
+    background-size: 100%}
+
+h1 {font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin: auto;
+    font-size: 60px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    animation-name: slide1;
+    animation-duration: 0.5s;
+    max-width: 650px;
+    text-align: center;
+    text-shadow: black 4px 1px 10px;
+    } 
+
+    @media(max-width: 768px){
+        h1 {
+           text-align: center;
+           font-size: 40px;
+              
+        }
+    }
+
+   
+
+        @media(max-width: 768px){
+            iframe {
+               max-width: 300px;
+               
+               
+               
+                  
+            }
+        }
+        @media(max-width: 768px){
+            .accordion-item {
+               max-width: 300px;
+               
+                  
+            }
+        }
+        
+
+        
+            .whatsapp-link {
+                position: fixed;
+                width: 60px;
+                height: 60px;
+                bottom: 40px;
+                right: 40px;
+                background-color: #25d366;
+                color: #fff;
+                border-radius: 50px;
+                text-align: center;
+                font-size: 30px;
+                box-shadow: 1px 1px 2px #888;
+                z-index: 1000;
+            }
+            
+            .fa-whatsapp {
+                margin-top: 16px}
