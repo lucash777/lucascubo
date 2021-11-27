@@ -7,7 +7,7 @@ nav a:hover {background-color:rgb(224, 224, 224);
 
 
 body {margin: 0px;
-    background-image: url(../bg2.jpg);
+    background-image: url(bg2.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;}
@@ -52,7 +52,7 @@ transform: translateY(0px) }
 
         @media(max-width: 768px){
             body {
-                background-image: url(../bg11.jpg) ;
+                background-image: url(bg11.jpg) ;
                 
             }
         }
