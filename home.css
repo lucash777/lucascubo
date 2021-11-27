@@ -51,7 +51,7 @@ body {margin: 0%;}
            
         }
 
-        .section3 {background-image: url(../bg5.jpg);
+        .section3 {background-image: url(bg5.jpg);
             background-position: center;
             background-size: cover;
             padding-bottom: 100px;
@@ -72,7 +72,7 @@ body {margin: 0%;}
 
                 @media(max-width: 768px){
                     .section1 {
-                        background-image: url(../bg12.jpg);
+                        background-image: url(bg12.jpg);
                         
                     }
                     }
@@ -89,7 +89,7 @@ body {margin: 0%;}
 
                 @media(max-width: 768px){
                     .section2 {
-                        background-image: url(../bg10.jpg);
+                        background-image: url(bg10.jpg);
                         
                         
                     }
